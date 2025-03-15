@@ -1,6 +1,5 @@
 <script setup>
-import { reactive, ref, watch } from "vue" 
-import HelloWorld from './components/HelloWorld.vue'
+import { reactive, ref, watch } from "vue"
 import data from "../infinex.json"
 
 let userResult = reactive({})
