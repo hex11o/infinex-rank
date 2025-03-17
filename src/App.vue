@@ -1,13 +1,12 @@
 <script setup>
 import { reactive, ref, watch } from "vue"
 import data from "../infinex.json"
+import currentRound from "../config.js"
 
 let userResult = reactive({})
 let search = ref('')
 let searchResults = ref([])
 
-const currentRound = 180 // 当前展示轮数，真实轮数id需要+3
-const dataRound = 1 // 获取的已结束轮数
 const BULL_START_ROUND_ID = 39
 const LARGE_RANGE_ROUND_ID = 138
 
