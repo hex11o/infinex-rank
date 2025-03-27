@@ -89,7 +89,7 @@ defineExpose({
 </script>
 
 <template>
-  <div>Data as of: Round {{ currentRound }}</div>
+  <div>Data as of Round {{ currentRound }}</div>
   <div>数据截止于：{{ currentRound }}轮</div>
   <div class="notify">
     <img src="./assets/info.svg" alt="">
